@@ -11,13 +11,15 @@
         }
 
         .image-container {
-            display: inline-block;
-            margin: 20px;
-            padding: 10px;
-            border: 2px solid #4CAF50; 
-            border-radius: 10px;
-            transition: transform 0.3s ease;
-        }
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #4CAF50; 
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 
         .image-container:hover {
             transform: scale(1.1); 
@@ -57,6 +59,10 @@
     <form id="form1" runat="server">
         <div>
             <h1 id="title">Personality Test</h1>
+<p style="color: #555; font-size: 16px; margin-top: -10px;">
+    Select an image below to reveal your personality insight!
+</p>
+
 
             <div class="image-container">
                 
