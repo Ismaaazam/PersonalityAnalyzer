@@ -42,6 +42,24 @@ namespace PersonalityAnalyzer
         protected global::System.Web.UI.WebControls.ImageButton imgCity;
 
         /// <summary>
+        /// imgMountain control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton imgMountain;
+
+        /// <summary>
+        /// imgBeach control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton imgBeach;
+
+        /// <summary>
         /// lblResult control.
         /// </summary>
         /// <remarks>

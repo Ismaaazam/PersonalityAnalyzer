@@ -58,18 +58,31 @@
         <div>
             <h1 id="title">Personality Test</h1>
 
+            <!-- Nature Image -->
             <div class="image-container">
-                
                 <asp:ImageButton ID="imgNature" runat="server" ImageUrl="~/images/nature.jpg" OnClick="imgNature_Click" />
                 <p>Nature</p>
             </div>
 
+            <!-- City Image -->
             <div class="image-container">
                 <asp:ImageButton ID="imgCity" runat="server" ImageUrl="~/images/city.jpg" OnClick="imgCity_Click" />
                 <p>City</p>
             </div>
 
-            
+            <!-- Mountain Image -->
+            <div class="image-container">
+                <asp:ImageButton ID="imgMountain" runat="server" ImageUrl="~/images/mountain.jpg" OnClick="imgMountain_Click" />
+                <p>Mountain</p>
+            </div>
+
+            <!-- Beach Image -->
+            <div class="image-container">
+                <asp:ImageButton ID="imgBeach" runat="server" ImageUrl="~/images/beach.jpg" OnClick="imgBeach_Click" />
+                <p>Beach</p>
+            </div>
+
+            <!-- Result Container -->
             <div id="resultContainer">
                 <asp:Label ID="lblResult" runat="server" Text="Please select an image to see your result." />
             </div>

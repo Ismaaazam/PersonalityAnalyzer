@@ -68,7 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="images\beach.jpg" />
     <Content Include="images\city.jpg" />
+    <Content Include="images\mountain.jpg" />
     <Content Include="images\nature.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
